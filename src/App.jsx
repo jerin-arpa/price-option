@@ -2,6 +2,7 @@
 import './App.css'
 import CreateNavbar from './component/CreateNavbar/CreateNavbar'
 import LineChart from './component/LineChart/LineChart'
+import Phones from './component/Phones/Phones'
 import PriceOption from './component/PriceOptions/PriceOptions'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <CreateNavbar></CreateNavbar>
       <PriceOption></PriceOption>
       <LineChart></LineChart>
+      <Phones></Phones>
     </>
   )
 }
